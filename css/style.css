@@ -2,7 +2,7 @@ body{
 	padding: 0;
 	margin: 0;
     font-family: Happy Times at the IKOB;
-    color: #fff0d9;
+    color: #930731;
 	font-size: 48px;
 	background: rgba(148,7,49,0);
 }
@@ -33,17 +33,17 @@ footer{
 
 a{
 	font-family: Happy Times at the IKOB;
-	color: #fff0d9;
+	color: #930731;
 }
 
 p::selection, h2::selection{
-	color: #fff0d9;
-	background: #fff0d9;
+	color: #930731;
+	background: #930731;
 }
 
 a::selection{
-	color: #fff0d9;
-	background: #fff0d9;
+	color: #930731;
+	background: #930731;
 }
 
 ul{
