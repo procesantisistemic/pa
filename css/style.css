@@ -1,0 +1,74 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-size: 48px;
+	background: rgba(148,7,49,0);
+}
+
+@font-face {
+  font-family: Happy Times at the IKOB;
+  src: url("fonts/happy-times-NG_bold_master_web.ttf");
+  font-weight: bold;
+}
+
+p{
+	margin-top: 0.6rem;
+}
+
+div#wrapper, footer{
+	padding: 0 0.8rem;
+}
+
+h2{
+	font-size: 48px;
+	font-weight: bold;
+	margin-bottom: 0.6rem;
+}
+
+footer{
+	margin-bottom: 1rem;
+}
+
+a{
+	font-family: Happy Times at the IKOB;
+	color: red;
+}
+
+p::selection, h2::selection{
+	color: black;
+	background: rgba(0,0,0,0.99);
+}
+
+a::selection{
+	color: black;
+	background: rgba(0,0,0,0.99);
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	line-height: 1.4em;
+}
+
+img#manifest{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	display: none;
+}
+
+@media (max-width: 600px) {
+  body{
+  	font-size: 30px;
+  }
+
+  h2{
+  	font-size: 30px;
+  }
+
+  img#manifest{
+  	width: 300px;
+  }
+}
